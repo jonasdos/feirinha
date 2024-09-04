@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "nodemon ./src/index.js"
   },
   "type": "module",
   "keywords": [],
   "author": "Jonas Dos",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.3.0",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   },
